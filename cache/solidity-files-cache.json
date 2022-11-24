@@ -1,0 +1,222 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/jamesshieh/uniswap-integration/uniswap-first-contract-example/contracts/HelloWorld.sol": {
+      "lastModificationDate": 1666709767369,
+      "contentHash": "bd506b6e6717f2c15cd455bdd4cf402a",
+      "sourceName": "contracts/HelloWorld.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    },
+    "/Users/jamesshieh/uniswap-integration/uniswap-first-contract-example/contracts/SimpleSwap.sol": {
+      "lastModificationDate": 1668275268879,
+      "contentHash": "1b42e17ecf8f4112a2aad51e841f5c2d",
+      "sourceName": "contracts/SimpleSwap.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol",
+        "@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "SimpleSwap"
+      ]
+    },
+    "/Users/jamesshieh/uniswap-integration/uniswap-first-contract-example/node_modules/@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol": {
+      "lastModificationDate": 1666709829491,
+      "contentHash": "ffd42687b3db01d30c24213d961fcf9f",
+      "sourceName": "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.5"
+      ],
+      "artifacts": [
+        "ISwapRouter"
+      ]
+    },
+    "/Users/jamesshieh/uniswap-integration/uniswap-first-contract-example/node_modules/@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1666709830193,
+      "contentHash": "f0616d1842da6584f8454c9b323d777f",
+      "sourceName": "@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/jamesshieh/uniswap-integration/uniswap-first-contract-example/node_modules/@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol": {
+      "lastModificationDate": 1666709832850,
+      "contentHash": "a8ba2d37b0107911ae0e3b0e123cbd83",
+      "sourceName": "@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3SwapCallback"
+      ]
+    },
+    "/Users/jamesshieh/uniswap-integration/uniswap-first-contract-example/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1666709844963,
+      "contentHash": "70ec621ea910798b6c590a0b402a5bb9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    }
+  }
+}
