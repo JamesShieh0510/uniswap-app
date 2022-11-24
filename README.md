@@ -6,6 +6,8 @@ cd uniswap-app
 npm install
 
 # forked from a snapshot of Mainnet
+
+alchemy: https://www.alchemy.com
 npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/{YOUR_API_KEY}
 
 # test the contract
